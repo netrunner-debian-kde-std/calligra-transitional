@@ -1,0 +1,417 @@
+Source: calligra-transitional
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.3
+Homepage: http://www.calligra-suite.org
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra-transitional.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra-transitional.git
+
+Package: koffice
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra
+Description: transitional dummy package for calligra
+ This transitional package allows one to migrate from the whole KOffice suite
+ to Calligra.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kexi-plugin-kspread
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, kexi-calligrasheets-driver
+Description: transitional dummy package for kexi-calligrasheets-driver
+ This transitional package allows one to migrate to the newer name of the
+ KSpread plugin for Kexi.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kexi-plugin-mysql
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, kexi-mysql-driver
+Description: transitional dummy package for kexi-mysql-driver
+ This transitional package allows one to migrate to the newer name of the
+ MySQL plugin for Kexi.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kexi-plugin-postgresql
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, kexi-postgresql-driver
+Description: transitional dummy package for kexi-postgresql-driver
+ This transitional package allows one to migrate to the newer name of the
+ PostgreSQL plugin for Kexi.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kexi-plugin-xbase
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, kexi-xbase-driver
+Description: transitional dummy package for kexi-xbase-driver
+ This transitional package allows one to migrate to the newer name of the
+ XBase plugin for Kexi.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kplato
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligraplan
+Description: transitional dummy package for calligraplan
+ This transitional package allows one to migrate from KOffice's KPlato
+ to Calligra Plan.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kpresenter
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligrastage
+Description: transitional dummy package for calligrastage
+ This transitional package allows one to migrate from KOffice's KPresenter
+ to Calligra Stage.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kspread
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligrasheets
+Description: transitional dummy package for calligrasheets
+ This transitional package allows one to migrate from KOffice's KSpread
+ to Calligra Sheets.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kword
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligrawords
+Description: transitional dummy package for calligrawords
+ This transitional package allows one to migrate from KOffice's KWord
+ to Calligra Words.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-dbg
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-dbg
+Description: transitional dummy package for calligra-dbg
+ This transitional package allows one to migrate from KOffice's debug package
+ to Calligra's one.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-ca
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-ca
+Description: transitional dummy package for calligra-l10n-ca
+ This transitional package allows one to migrate from the Canadian
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-cavalencia
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-cavalencia
+Description: transitional dummy package for calligra-l10n-cavalencia
+ This transitional package allows one to migrate from the Southern Catalan
+ (Valencian) translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-da
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-da
+Description: transitional dummy package for calligra-l10n-da
+ This transitional package allows one to migrate from the Danish
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-de
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-de
+Description: transitional dummy package for calligra-l10n-de
+ This transitional package allows one to migrate from the German
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-el
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-el
+Description: transitional dummy package for calligra-l10n-el
+ This transitional package allows one to migrate from the Greek
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-engb
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-engb
+Description: transitional dummy package for calligra-l10n-engb
+ This transitional package allows one to migrate from the British English
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-es
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-es
+Description: transitional dummy package for calligra-l10n-es
+ This transitional package allows one to migrate from the Spanish
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-et
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-et
+Description: transitional dummy package for calligra-l10n-et
+ This transitional package allows one to migrate from the Estonian
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-fr
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-fr
+Description: transitional dummy package for calligra-l10n-fr
+ This transitional package allows one to migrate from the French
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+#Package: koffice-l10n-gl
+#Architecture: all
+#Priority: extra
+#Section: oldlibs
+#Depends: ${misc:Depends}, calligra-l10n-gl
+#Description: transitional dummy package for calligra-l10n-gl
+# This transitional package allows one to migrate from the Galician
+# translations of KOffice to the Calligra ones.
+# .
+# It can be safely removed after the upgrade.
+
+Package: koffice-l10n-hu
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-hu
+Description: transitional dummy package for calligra-l10n-hu
+ This transitional package allows one to migrate from the Hungarian
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-it
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-it
+Description: transitional dummy package for calligra-l10n-it
+ This transitional package allows one to migrate from the Italian
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+#Package: koffice-l10n-ja
+#Architecture: all
+#Priority: extra
+#Section: oldlibs
+#Depends: ${misc:Depends}, calligra-l10n-ja
+#Description: transitional dummy package for calligra-l10n-ja
+# This transitional package allows one to migrate from the Japanese
+# translations of KOffice to the Calligra ones.
+# .
+# It can be safely removed after the upgrade.
+
+Package: koffice-l10n-kk
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-kk
+Description: transitional dummy package for calligra-l10n-kk
+ This transitional package allows one to migrate from the Kazakh
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-nb
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-nb
+Description: transitional dummy package for calligra-l10n-nb
+ This transitional package allows one to migrate from the Norwegian Bookmal
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-nds
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-nds
+Description: transitional dummy package for calligra-l10n-nds
+ This transitional package allows one to migrate from the Low Saxon
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-nl
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-nl
+Description: transitional dummy package for calligra-l10n-nl
+ This transitional package allows one to migrate from the Dutch
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-pl
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-pl
+Description: transitional dummy package for calligra-l10n-pl
+ This transitional package allows one to migrate from the Polish
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-pt
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-pt
+Description: transitional dummy package for calligra-l10n-pt
+ This transitional package allows one to migrate from the Portuguese
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-ptbr
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-ptbr
+Description: transitional dummy package for calligra-l10n-ptbr
+ This transitional package allows one to migrate from the Brazilian Portuguese
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-ru
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-ru
+Description: transitional dummy package for calligra-l10n-ru
+ This transitional package allows one to migrate from the Russian
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-sv
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-sv
+Description: transitional dummy package for calligra-l10n-sv
+ This transitional package allows one to migrate from the Swedish
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+#Package: koffice-l10n-tr
+#Architecture: all
+#Priority: extra
+#Section: oldlibs
+#Depends: ${misc:Depends}, calligra-l10n-tr
+#Description: transitional dummy package for calligra-l10n-tr
+# This transitional package allows one to migrate from the Turkish
+# translations of KOffice to the Calligra ones.
+# .
+# It can be safely removed after the upgrade.
+
+Package: koffice-l10n-uk
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-uk
+Description: transitional dummy package for calligra-l10n-uk
+ This transitional package allows one to migrate from the Ukrainian
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+#Package: koffice-l10n-wa
+#Architecture: all
+#Priority: extra
+#Section: oldlibs
+#Depends: ${misc:Depends}, calligra-l10n-wa
+#Description: transitional dummy package for calligra-l10n-wa
+# This transitional package allows one to migrate from the Wallonian
+# translations of KOffice to the Calligra ones.
+# .
+# It can be safely removed after the upgrade.
+
+Package: koffice-l10n-zhcn
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-zhcn
+Description: transitional dummy package for calligra-l10n-zhcn
+ This transitional package allows one to migrate from the Chinese Simplified
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
+
+Package: koffice-l10n-zhtw
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${misc:Depends}, calligra-l10n-zhtw
+Description: transitional dummy package for calligra-l10n-zhtw
+ This transitional package allows one to migrate from the Chinese Traditional
+ translations of KOffice to the Calligra ones.
+ .
+ It can be safely removed after the upgrade.
