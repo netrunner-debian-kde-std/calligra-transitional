@@ -1,3 +1,8 @@
+calligra-transitional (2) UNRELEASED; urgency=low
+
+
+ -- Pino Toscano <pino@debian.org>  Wed, 13 Jun 2012 11:33:44 +0200
+
 calligra-transitional (1) unstable; urgency=low
 
   * Initial release.
