@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-CALLIGRA_VERSION := 1:2.4.2
+CALLIGRA_VERSION := 1:2.4.3
 
 BINARY_VERSION_NO_EPOCH := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(\([[:digit:]]\+\):\)\?/\2/')
 PACKAGES_VERSION := $(CALLIGRA_VERSION)+$(BINARY_VERSION_NO_EPOCH)

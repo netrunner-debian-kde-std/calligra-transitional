@@ -2,6 +2,7 @@ calligra-transitional (2) UNRELEASED; urgency=low
 
   * Override the dbg-package-missing-depends lintian warning, since all the
     packages are transitional.
+  * Bump the calligra version to 2.4.3.
 
  -- Pino Toscano <pino@debian.org>  Wed, 13 Jun 2012 11:33:44 +0200
 
