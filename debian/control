@@ -125,7 +125,7 @@ Priority: extra
 Section: oldlibs
 Depends: ${misc:Depends}, calligra-l10n-ca
 Description: transitional dummy package for calligra-l10n-ca
- This transitional package allows one to migrate from the Canadian
+ This transitional package allows one to migrate from the Catalan
  translations of KOffice to the Calligra ones.
  .
  It can be safely removed after the upgrade.
