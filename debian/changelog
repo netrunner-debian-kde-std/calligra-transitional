@@ -1,3 +1,8 @@
+calligra-transitional (3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Jul 2013 22:52:25 +0200
+
 calligra-transitional (2) unstable; urgency=low
 
   * Override the dbg-package-missing-depends lintian warning, since all the
