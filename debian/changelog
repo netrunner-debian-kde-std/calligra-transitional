@@ -7,6 +7,7 @@ calligra-transitional (3) UNRELEASED; urgency=low
     Calligra 2.7.x.
   * Remove the override for the dbg-package-missing-depends lintian warning,
     as it is no more needed now.
+  * Update Vcs-* headers.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Jul 2013 22:52:25 +0200
 
