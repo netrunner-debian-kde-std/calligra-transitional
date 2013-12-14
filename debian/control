@@ -174,16 +174,16 @@ Description: transitional dummy package for calligra-l10n-el
  .
  It can be safely removed after the upgrade.
 
-Package: koffice-l10n-engb
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: ${misc:Depends}, calligra-l10n-engb
-Description: transitional dummy package for calligra-l10n-engb
- This transitional package allows one to migrate from the British English
- translations of KOffice to the Calligra ones.
- .
- It can be safely removed after the upgrade.
+#Package: koffice-l10n-engb
+#Architecture: all
+#Priority: extra
+#Section: oldlibs
+##Depends: ${misc:Depends}, calligra-l10n-engb
+#Description: transitional dummy package for calligra-l10n-engb
+# This transitional package allows one to migrate from the British English
+# translations of KOffice to the Calligra ones.
+# .
+# It can be safely removed after the upgrade.
 
 Package: koffice-l10n-es
 Architecture: all

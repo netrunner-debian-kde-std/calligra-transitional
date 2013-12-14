@@ -3,6 +3,8 @@ calligra-transitional (3) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Fix typo in description of koffice-l10n-ca. (Closes: #699282)
   * Bump Standards-Version to 3.9.5, no changes required.
+  * Comment out koffice-l10n-engb, as calligra-l10n-engb is not shipped with
+    Calligra 2.7.x.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Jul 2013 22:52:25 +0200
 
