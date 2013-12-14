@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://www.calligra-suite.org
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra-transitional.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra-transitional.git
